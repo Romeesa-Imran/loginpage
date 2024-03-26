@@ -1,0 +1,121 @@
+.login-form {
+	width: 300px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #333333;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.login-form h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.login-form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-left: 40px;
+}
+
+.login-form input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.input-icon {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.input-icon i {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ccc;
+	font-size: 18px;
+}
+
+.input-icon input {
+	padding-left: 40px;
+}
+.data-table {
+  width: 1200px;
+  border-collapse: collapse;
+  margin: 0px auto;
+	margin-top: 50px;
+}
+
+.data-table th,
+.data-table td {
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+.data-table th {
+	background-color: #4CAF50;
+	color: #fff;
+	font-weight: bold;
+}
+
+.data-table tbody tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.data-table td:last-child {
+	text-align: center;
+}
+
+.data-table td i {
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.data-table td i:hover {
+	color: #4CAF50;
+}
+
+
+.paid {
+
+	background-color: #d4edda;
+
+}
+
+
+.pending {
+
+	background-color: #f8d7da;
+
+}
+
+
+.payment-status {
+
+	background-color: #f5f5f5;
+
+}
+.text-danger { color: #dc3545; }
